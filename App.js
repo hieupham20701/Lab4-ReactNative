@@ -31,6 +31,16 @@ export default function App() {
           </TouchableOpacity>
           <Text style={{marginTop:10, marginLeft:50, fontWeight:"bold", fontSize:15, color:"blue"}}>Mua sau</Text>
         </View>
+        <View style={{flexDirection: "row", flexWrap:"wrap"}}>
+          <Text style={{marginTop:35, marginLeft:40, fontWeight:"bold"}}>Mã giảm giá đã lưu</Text>
+          <Text style={{marginTop:35, marginLeft:20, fontWeight:"bold", color:"blue"}}>Xem tại đây</Text>
+        </View>
+        <View style={{flexDirection: "row", flexWrap:"wrap", borderColor:"black"}}> 
+          <View>
+            <View style={{backgroundColor:"yellow"}} />
+            <Text style={{marginTop:35, marginLeft:40, fontWeight:"bold", fontSize:20}}>Mã giảm giá</Text>
+          </View>
+        </View>
       </View>
     </View>
   );
